@@ -1,0 +1,26 @@
+.bulb{
+    position: relative;
+    margin-top: -60px;
+    cursor: pointer;
+    
+}
+.tool{
+    cursor: pointer;
+}
+.tool:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.message{
+    z-index: -1;
+}
+.responseHover{
+    display: none;
+    z-index: 20;
+}
+.message :hover .responseHover{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
